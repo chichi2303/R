@@ -4,12 +4,7 @@ library("ROAuth")
 library(tm); library(SnowballC)
 library(wordcloud)
 
-setup_twitter_oauth(t.api.key, t.api.secret, access_token=NULL,
-                    access_secret=NULL) # version 1.1.8
-
-# To Test
-start<-getUser("cnnbrk") # Users
-start$description
+#The Twitter authorization was removed for security reason
 
 #6 stocks, 3 largest gainer(loser) stocks for the day. 
 #Gainer 
